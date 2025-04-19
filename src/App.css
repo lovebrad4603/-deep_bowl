@@ -1,0 +1,90 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: #ffffffee;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+}
+
+h1 {
+    font-weight: 700;
+    color: #222;
+    font-size: 2rem;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body label {
+    color: #333;
+    font-size: 1rem;
+}
+
+.card-body label:hover {
+    color: #0d6efd;
+}
+
+.input-group input:focus {
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+    border-color: #86b7fe;
+}
+
+.btn-group .btn.active {
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+}
+
+.input-area input,
+.input-area button {
+    font-size: 1rem;
+}
+
+li {
+    font-size: 1rem;
+}
+
+
+/* 可選：完成項目更明顯 */
+
+.card.border-success {
+    border-color: #28a745 !important;
+    background-color: #e8f5e9;
+}
+
+.form-check-input:checked {
+    background-color: #198754;
+    border-color: #198754;
+}
